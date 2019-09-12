@@ -34,3 +34,4 @@ const isRemovable = (value) => {
 }
 
 const params = createUpdateParams(obj, isRemovable)
+console.log(JSON.stringify(params, null, 2))

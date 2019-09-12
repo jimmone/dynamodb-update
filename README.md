@@ -1,3 +1,3 @@
 # DynamoDB update
 
-Creates DynamoDB update expression from input object.
+Creates DynamoDB update parameters from input object.

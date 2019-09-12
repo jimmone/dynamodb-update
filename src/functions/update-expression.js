@@ -33,7 +33,6 @@ module.exports = (obj, isRemovable) => {
     setExpression = setExpression.slice(0, -2)
     params.UpdateExpression = setExpression + ' ' + removeExpression
 
-    console.log(JSON.stringify(params, null, 2))
     return params
 
 }
